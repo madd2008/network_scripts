@@ -1,0 +1,13 @@
+[Unit]
+Description=Monitoring Bot App
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/var/tmp
+ExecStart=/usr/local/bin/python3.11 /var/tmp/monitoring_bot.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
