@@ -800,8 +800,8 @@ def send_resolved_to_teams(resolved, incident_id, active_incident_data_center, i
 
 def send_to_teams_channel(message):
 
-    hook_url = 'https://webhook.office.com/webhookb2/15d1f7ea-4c14-4bef-a42c-21878ed0bce2@5e523f03-76f4-4a89-ae97-9aa2208cf15a/IncomingWebhook/437ca57f741f423b937084ed372233f4/b8079b1e-d692-44a8-99f5-2aeb184fabc5' # network-general
-    # hook_url = 'https://webhook.office.com/webhookb2/15d1f7ea-4c14-4bef-a42c-21878ed0bce2@5e523f03-76f4-4a89-ae97-9aa2208cf15a/IncomingWebhook/bd5e73aba58a46ea87d138847465862e/e183aa3e-f7cb-473f-bf10-214159ada738' # network-alerts-linux-informational
+    hook_url = 'https://webhook.office.com/webhookb2/15d1f7ea-4c14-4bef-a42c-21878ed0bce2@5e523f03-76f4-4a89-ae97-9aa2208cf15a/IncomingWebhook/437ca57f741f423b937084ed372233f4/#############' # network-general
+    # hook_url = 'https://webhook.office.com/webhookb2/15d1f7ea-4c14-4bef-a42c-21878ed0bce2@5e523f03-76f4-4a89-ae97-9aa2208cf15a/IncomingWebhook/bd5e73aba58a46ea87d138847465862e/###########' # network-alerts-linux-informational
 
     message_l = message.splitlines()
 
